@@ -40,7 +40,7 @@ export default function AccountInfo() {
             <div className="flex items-center gap-3 mb-2">
               {user?.profile_photo ? (
                 <img
-                  src={`http://127.0.0.1:8000${user.profile_photo}`}
+                 src={`https://novexus-backend.onrender.com${user.profile_photo}`}
                   alt="profile"
                   className="w-12 h-12 rounded-full object-cover border-2 border-white"
                 />
