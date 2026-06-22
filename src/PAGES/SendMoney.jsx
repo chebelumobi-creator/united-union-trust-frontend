@@ -6,7 +6,8 @@ import { domesticTransfer, wireTransfer } from "../api";
 import { Loader2, ArrowLeft, Send, CheckCircle, Globe, Home, Shield } from "lucide-react";
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
 
 function SendMoney() {
   const { t } = useTranslation();
