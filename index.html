@@ -2,17 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>United Union Trust </title>
+    <title>United Union Trust - Secure Online Banking</title>
+    <meta name="description" content="United Union Trust offers secure online banking, money transfers, loans, and financial services. Open an account today." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="United Union Trust - Secure Online Banking" />
+    <meta property="og:description" content="United Union Trust offers secure online banking, money transfers, loans, and financial services." />
+    <meta property="og:url" content="https://www.uniteduniontrust.com" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://www.uniteduniontrust.com" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "United Union Trust",
+      "url": "https://www.uniteduniontrust.com",
+      "description": "Secure online banking, money transfers, loans, and financial services.",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Banking Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Money Transfer"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Online Banking"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Loan Calculator"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bill Payments"}}
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
-
-    
-   

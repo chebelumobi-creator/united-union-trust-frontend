@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /faq
+Allow: /contact
+Allow: /branches
+Allow: /loan-calculator
+
+Disallow: /dashboard
+Disallow: /send
+Disallow: /pin
+Disallow: /account-info
+Disallow: /deposit
+Disallow: /withdraw
+Disallow: /statements
+Disallow: /history
+Disallow: /balance
+Disallow: /cards
+Disallow: /payments
+Disallow: /settings
+Disallow: /scan-and-pay
+Disallow: /success
+Disallow: /refer
+
+Sitemap: https://www.uniteduniontrust.com/sitemap.xml
