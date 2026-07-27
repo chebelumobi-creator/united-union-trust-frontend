@@ -3,25 +3,50 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Eye, EyeOff, ArrowUpRight, Plus } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import axios from 'axios';
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
 
 export default function BalanceCard() {
   const { t } = useTranslation();
   const [time, setTime] = useState(new Date());
   const [showBalance, setShowBalance] = useState(true);
   const { balance, user } = useBalance();
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTime(new Date());
-    }, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
-  // TOP UP NAVIGATION
   const navigate = useNavigate();
 
+  // Fetch system time from backend
+  const fetchSystemTime = async () => {
+    try {
+      const token = localStorage.getItem('access_token');
+      const headers = token ? { Authorization: `Bearer ${token}` } : {};
+      
+      const res = await axios.get(`${API_URL}/system-time/`, { headers });
+      
+      if (res.data.datetime) {
+        const serverTime = new Date(res.data.datetime);
+        setTime(serverTime);
+      }
+    } catch (error) {
+      console.error("Failed to fetch system time:", error);
+      // Fallback to local time
+      setTime(new Date());
+    }
+  };
+
+  useEffect(() => {
+    // Fetch time immediately
+    fetchSystemTime();
+
+    // Update every 30 seconds (to keep time in sync)
+    const interval = setInterval(() => {
+      fetchSystemTime();
+    }, 30000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   const greeting = () => {
-    const hour = new Date().getHours();
+    const hour = time.getHours();
     if (hour < 12) return t("balance.goodMorning");
     if (hour < 18) return t("balance.goodAfternoon");
     return t("balance.goodEvening");
@@ -45,7 +70,8 @@ export default function BalanceCard() {
         <div className="flex items-center gap-3">
           {user?.profile_photo ? (
             <img
-              src={`https://novexus-backend.onrender.com${user.profile_photo}`}
+              // src={`https://united-union-backend.onrender.com${user.profile_photo}`}
+              src={`http://127.0.0.1:8000${user.profile_photo}`}
               alt="profile"
               className="w-12 h-12 rounded-full object-cover"
             />

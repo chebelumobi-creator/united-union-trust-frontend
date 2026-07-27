@@ -89,7 +89,7 @@ const FAQ = () => {
     {
       id: 9,
       category: "Security",
-      question: "Is my money safe with Novexus Finance Bank?",
+      question: "Is my money safe with United Union Trust Bank?",
       answer: "Absolutely! We use 256-bit encryption on all transactions. Your deposits are insured up to $250,000 by FDIC. We also monitor all transactions 24/7 for suspicious activity."
     },
     {
@@ -142,7 +142,7 @@ const FAQ = () => {
       id: 17,
       category: "Mobile",
       question: "Is there a mobile app available?",
-      answer: "Yes! Novexus Finance Bank offers a mobile app for both iOS and Android devices. Download it from the App Store or Google Play Store for banking on the go."
+      answer: "Yes! United Union Trust Bank offers a mobile app for both iOS and Android devices. Download it from the App Store or Google Play Store for banking on the go."
     },
     {
       id: 18,
@@ -162,7 +162,7 @@ const FAQ = () => {
       id: 20,
       category: "Support",
       question: "How do I contact customer support?",
-      answer: "You can contact our support team 24/7 via Live Chat on our website, email us at support@novexusbank.com, or call us at 1-800-555-0199."
+      answer: "You can contact our support team 24/7 via Live Chat on our website, email us at support@uniteduniontrustbank.com, or call us at 1-800-555-0199."
     },
     {
       id: 21,

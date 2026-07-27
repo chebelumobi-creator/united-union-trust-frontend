@@ -20,9 +20,9 @@
     "transfer": "ငွေလွှဲရန်"
   },
   "hero": {
-    "welcome": "Novexus Finance Bank သို့ ကြိုဆိုပါသည်",
+    "welcome": "United Union Trust Bank သို့ ကြိုဆိုပါသည်",
     "title1": "သင့်ငွေ၊ လုံခြုံပြီး တိုးပွားနေသည်",
-    "subtitle1": "Novexus Finance Bank နှင့် ပိုမိုသာလွန်သော ဘဏ်လုပ်ငန်းကို ခံစားလိုက်ပါ — ငွေပေးချေမှုတိုင်း ကာကွယ်ထားပါသည်။",
+    "subtitle1": "United Union Trust Bank နှင့် ပိုမိုသာလွန်သော ဘဏ်လုပ်ငန်းကို ခံစားလိုက်ပါ — ငွေပေးချေမှုတိုင်း ကာကွယ်ထားပါသည်။",
     "title2": "ကမ္ဘာတစ်ဝှမ်း ချက်ချင်းငွေလွှဲ",
     "subtitle2": "လျှို့ဝှက်ကြေးမဲ့ဘဲ ရှာဘာမဆို ငွေပေးပို့ပါ မည်သည့်နေရာသို့မဆို။",
     "title3": "ပြင်ဆင်မွေ့မြောင်သော ဘဏ်လုပ်ငန်းအတွေ့အကြုံ",
@@ -113,7 +113,7 @@
     "terms": "ဝန်ဆောင်မှုသတ်မှတ်ချက်များ",
     "securityLink": "လုံခြုံရေး",
     "followUs": "ကျွန်ုပ်တို့ကို လိုက်ရန်",
-    "copyright": "© 2026 Novexus Finance Bank. မူပိုင်ခွင့်များ သတ်မှတ်ထားသည်။",
+    "copyright": "© 2026 United Union Trust Bank. မူပိုင်ခွင့်များ သတ်မှတ်ထားသည်။",
     "branchLocator": "ဌာနခွဲရှာဖွေရန်",
     "mobileBanking": "မိုဘိုင်းဘဏ်လုပ်ငန်း",
     "loanCalculator": "ချေးငွေတွက်ချက်သူ",
@@ -241,7 +241,7 @@
     "downloadFailed": "ဒေါင်းလုဒ် မအောင်မြင်ပါ။ ပရင့်ခလုတ် အသုံးပြုပါ။"
   },
   "pin": {
-    "title": "Novexus Finance Bank သို့ ဝင်ရောက်ရန်",
+    "title": "United Union Trust Bank သို့ ဝင်ရောက်ရန်",
     "subtitle": "အီးမေးလ်နှင့် စကားဝှက်ဖြင့် အကောင့်ဝင်ပါ။",
     "welcomeBack": "ပြန်လည်ကြိုဆိုပါသည်",
     "email": "အီးမေးလ်",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 အထူးဗောက်ချာ အထုပ်!",
-    "shareBank": "Novexus Finance Bank ကို သူငယ်ချင်းများနှင့် မျှဝေပြီး $5 ဆုကြေးရယူပါ",
+    "shareBank": "United Union Trust Bank ကို သူငယ်ချင်းများနှင့် မျှဝေပြီး $5 ဆုကြေးရယူပါ",
     "inviteFriends": "သူငယ်ချင်းများကို ဖိတ်ခေါ်ပြီး တစ်ဦးလျှင် $1.5 ရယူပါ!",
     "referEarn": "💰 မိတ်ဆက်ပြီး ဆုလာဘ်ရယူပါ",
     "cashback": "အောင်မြင်သောမိတ်ဆက်မှုတိုင်းတွင် 10% ငွေပြန်ရရှိပါ",
@@ -337,7 +337,7 @@
     "accountNumber": "အကောင့်နံပါတ်",
     "notProvided": "မဖော်ပြရသေးပါ",
     "bank": "ဘဏ်",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "ဖုန်း",
     "address": "လိပ်စာ",
     "dailyLimit": "နေ့စဉ်လွှဲပြောင်းမှုကန့်သတ်ချက်",
@@ -361,7 +361,7 @@
     "depositNow": "ယခုသွင်းရန်",
     "bankTransfer": "ဘဏ်လွှဲပြောင်း",
     "bankName": "ဘဏ်အမည်",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "အကောင့်အမည်",
     "accountNumber": "အကောင့်နံပါတ်",
     "validAmount": "ကျေးဇူးပြု၍ မှန်ကန်သောပမာဏ ထည့်သွင်းပါ",

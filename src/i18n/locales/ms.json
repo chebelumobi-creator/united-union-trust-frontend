@@ -20,9 +20,9 @@
     "transfer": "Pindahan"
   },
   "hero": {
-    "welcome": "Selamat Datang ke Novexus Finance Bank",
+    "welcome": "Selamat Datang ke United Union Trust Bank",
     "title1": "Wang Anda, Selamat & Berkembang",
-    "subtitle1": "Perbankan lebih pintar dengan Novexus Finance Bank — di mana setiap transaksi dilindungi.",
+    "subtitle1": "Perbankan lebih pintar dengan United Union Trust Bank — di mana setiap transaksi dilindungi.",
     "title2": "Pindahan Segera Seluruh Dunia",
     "subtitle2": "Hantar wang ke mana sahaja dalam beberapa saat tanpa yuran tersembunyi.",
     "title3": "Pengalaman Perbankan Premium",
@@ -113,7 +113,7 @@
     "terms": "Terma Perkhidmatan",
     "securityLink": "Keselamatan",
     "followUs": "Ikuti Kami",
-    "copyright": "© 2026 Novexus Finance Bank. Hak cipta terpelihara.",
+    "copyright": "© 2026 United Union Trust Bank. Hak cipta terpelihara.",
     "branchLocator": "Cari Cawangan",
     "mobileBanking": "Perbankan Mudah Alih",
     "loanCalculator": "Kalkulator Pinjaman",
@@ -241,7 +241,7 @@
     "downloadFailed": "Muat turun gagal. Sila gunakan butang Cetak."
   },
   "pin": {
-    "title": "Log Masuk ke Novexus Finance Bank",
+    "title": "Log Masuk ke United Union Trust Bank",
     "subtitle": "Akses akaun anda menggunakan e-mel dan kata laluan.",
     "welcomeBack": "Selamat kembali",
     "email": "E-mel",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Paket Voucher Super!",
-    "shareBank": "Kongsi Novexus Finance Bank dengan rakan dan dapatkan bonus $5",
+    "shareBank": "Kongsi United Union Trust Bank dengan rakan dan dapatkan bonus $5",
     "inviteFriends": "Jemput rakan dan dapatkan $1.5 setiap seorang!",
     "referEarn": "💰 Rujuk & Dapatkan Ganjaran",
     "cashback": "Dapatkan 10% cashback pada setiap rujukan yang berjaya",
@@ -337,7 +337,7 @@
     "accountNumber": "Nombor Akaun",
     "notProvided": "Tidak disediakan",
     "bank": "Bank",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Telefon",
     "address": "Alamat",
     "dailyLimit": "Had Pindahan Harian",
@@ -361,7 +361,7 @@
     "depositNow": "Deposit Sekarang",
     "bankTransfer": "Pindahan Bank",
     "bankName": "Nama Bank",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Nama Akaun",
     "accountNumber": "Nombor Akaun",
     "validAmount": "Sila masukkan jumlah yang sah",

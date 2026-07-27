@@ -49,8 +49,8 @@ const ReferEarn = () => {
     successfulReferrals: 8,
     pendingReferrals: 4,
     totalEarned: 120.00,
-    referralCode: "NOVEXUS2026",
-    shareLink: "https://novexusbank.com/ref/NOVEXUS2026"
+    referralCode: "UNION2026",
+    shareLink: "https://uniteduniontrustbank.com/ref/UNION2026"
   };
 
   const referralHistory = [
@@ -111,14 +111,14 @@ const ReferEarn = () => {
   };
 
   const shareOnSocial = (platform) => {
-    const text = `Join Novexus Finance Bank using my referral code ${referralStats.referralCode} and earn $10! 🚀`;
+    const text = `Join United Union Trust Bank using my referral code ${referralStats.referralCode} and earn $10! 🚀`;
     const url = referralStats.shareLink;
     
     const shareUrls = {
       twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(text)}`,
       linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
-      email: `mailto:?subject=Join Novexus Finance Bank&body=${encodeURIComponent(text + '\n\n' + url)}`,
+      email: `mailto:?subject=Join United Union Trust Bank&body=${encodeURIComponent(text + '\n\n' + url)}`,
     };
     
     window.open(shareUrls[platform], '_blank', 'width=600,height=500');

@@ -1,3 +1,4 @@
+
 import { useBalance } from "../COMPONENTS/BalanceContext";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -216,15 +217,24 @@ function SendMoney() {
       if (response.status === 200) {
         await fetchProfile();
         const form = transferType === 'domestic' ? domesticForm : wireForm;
-        navigate("/success", {
-          state: {
-            ...form,
-            transfer_type: transferType,
-            reference: response.data.transaction?.reference,
-            status: 'completed',
-            manual_verification_required: response.data.manual_verification_required || false
-          }
-        });
+        
+        // ✅ UPDATED: Build success state with equivalent amount from OTP response
+        const successState = {
+          ...form,
+          transfer_type: transferType,
+          reference: response.data.transaction?.reference,
+          status: 'completed',
+          manual_verification_required: response.data.manual_verification_required || false
+        };
+        
+        // Add equivalent amount if available
+        if (response.data.equivalent_amount) {
+          successState.equivalent_amount = response.data.equivalent_amount;
+          successState.target_currency = response.data.target_currency;
+          successState.currency_symbol = response.data.currency_symbol;
+        }
+        
+        navigate("/success", { state: successState });
       }
     } catch (err) {
       const errorMsg = err.response?.data?.error || t('sendMoney.invalidOtp');

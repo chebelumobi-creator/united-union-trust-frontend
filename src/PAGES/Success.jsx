@@ -70,7 +70,7 @@ function Success() {
     ctx.fillStyle = '#16a34a';
     ctx.font = 'bold 28px Arial';
     ctx.textAlign = 'center';
-    const watermarkText = 'NOVEXUS FINANCE BANK';
+    const watermarkText = 'UNITED UNION TRUST BANK';
     const lineHeight = 80;
     const diagonal = -30 * Math.PI / 180;
     for (let y = 0; y < canvas.height + 100; y += lineHeight) {
@@ -98,7 +98,7 @@ function Success() {
       ctx.fillText(isWire ? t('success.wireSuccess') : t('success.domesticSuccess'), 300, 60);
     }
     ctx.font = '14px Arial';
-    ctx.fillText('Novexus Finance Bank', 300, 90);
+    ctx.fillText('United Union Trust Bank', 300, 90);
 
     // Amount
     ctx.fillStyle = '#1f2937';
@@ -123,8 +123,8 @@ function Success() {
     const details = [
       [t('success.reference'), toUpperCase(transferData.reference)],
       [t('success.transferType'), isWire ? t('success.wireTransfer') : t('success.domesticTransfer')],
-      [t('success.senderName'), toProperCase(displayName)],  // ← CHANGED
-      [t('success.fromBank'), 'Novexus Finance Bank'],
+      [t('success.senderName'), toProperCase(displayName)],
+      [t('success.fromBank'), 'United Union Trust Bank'],
       [t('success.recipientName'), toProperCase(transferData.recipient_name)],
       [t('success.accountNumber'), transferData.recipient_account],
       [t('success.bankName'), toProperCase(transferData.recipient_bank)],
@@ -195,7 +195,7 @@ function Success() {
     ctx.fillStyle = '#9ca3af';
     ctx.font = '12px Arial';
     ctx.textAlign = 'center';
-    ctx.fillText('Novexus Finance Bank', 300, y + 40);
+    ctx.fillText('United Union Trust Bank', 300, y + 40);
     ctx.fillText(t('footer.tagline'), 300, y + 60);
 
     return canvas;
@@ -281,7 +281,7 @@ function Success() {
                   ? (isWire ? t('success.wirePending') : t('success.domesticPending'))
                   : (isWire ? t('success.wireSuccess') : t('success.domesticSuccess'))}
               </h2>
-              <p className="text-white/80 text-sm mt-1">Novexus Finance Bank</p>
+              <p className="text-white/80 text-sm mt-1">United Union Trust Bank</p>
             </div>
 
             {/* Success/Info Icon */}
@@ -348,14 +348,14 @@ function Success() {
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">{t('success.senderName')}</span>
                 <span className="font-semibold text-gray-800 text-sm">
-                  {toProperCase(displayName)}  {/* ← CHANGED */}
+                  {toProperCase(displayName)}
                 </span>
               </div>
               
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">{t('success.fromBank')}</span>
                 <span className="font-semibold text-gray-800 text-sm">
-                  Novexus Finance Bank
+                  United Union Trust Bank
                 </span>
               </div>
               
@@ -453,7 +453,7 @@ function Success() {
 
             {/* Footer */}
             <div className="px-6 py-4 text-center">
-              <p className="text-xs text-gray-400">Novexus Finance Bank</p>
+              <p className="text-xs text-gray-400">United Union Trust Bank</p>
               <p className="text-xs text-gray-400">{t('footer.tagline')}</p>
             </div>
           </div>

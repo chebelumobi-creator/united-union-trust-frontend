@@ -20,9 +20,9 @@
     "transfer": "送金"
   },
   "hero": {
-    "welcome": "Novexus Finance Bankへようこそ",
+    "welcome": "ユナイテッド・ユニオン・トラスト銀行へようこそ",
     "title1": "あなたのお金は安全に、そして成長します",
-    "subtitle1": "Novexus Finance Bankでよりスマートな銀行取引 — すべての取引は保護されています。",
+    "subtitle1": "ユナイテッド・ユニオン・トラスト銀行でよりスマートな銀行取引 — すべての取引は保護されています。",
     "title2": "世界中への即時送金",
     "subtitle2": "隠れた手数料なしで、数秒でどこにでも送金できます。",
     "title3": "プレミアムバンキング体験",
@@ -113,7 +113,7 @@
     "terms": "利用規約",
     "securityLink": "セキュリティ",
     "followUs": "フォローする",
-    "copyright": "© 2026 Novexus Finance Bank. 全著作権所有。",
+    "copyright": "© 2026 ユナイテッド・ユニオン・トラスト銀行。全著作権所有。",
     "branchLocator": "支店を探す",
     "mobileBanking": "モバイルバンキング",
     "loanCalculator": "ローン計算機",
@@ -241,7 +241,7 @@
     "downloadFailed": "ダウンロードに失敗しました。「印刷」ボタンをご使用ください。"
   },
   "pin": {
-    "title": "Novexus Finance Bankにログイン",
+    "title": "ユナイテッド・ユニオン・トラスト銀行にログイン",
     "subtitle": "メールアドレスとパスワードを使用してアカウントにアクセスします。",
     "welcomeBack": "おかえりなさい",
     "email": "メールアドレス",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 スーパーバウチャーパッケージ！",
-    "shareBank": "Novexus Finance Bankを友達と共有して$5のボーナスを獲得",
+    "shareBank": "ユナイテッド・ユニオン・トラスト銀行を友達と共有して$5のボーナスを獲得",
     "inviteFriends": "友達を招待してそれぞれ$1.5をゲット！",
     "referEarn": "💰 紹介して報酬を獲得",
     "cashback": "成功した紹介ごとに10%のキャッシュバック",
@@ -337,7 +337,7 @@
     "accountNumber": "口座番号",
     "notProvided": "未提供",
     "bank": "銀行",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "ユナイテッド・ユニオン・トラスト銀行",
     "phone": "電話番号",
     "address": "住所",
     "dailyLimit": "一日の送金限度額",
@@ -361,7 +361,7 @@
     "depositNow": "今すぐ入金",
     "bankTransfer": "銀行振込",
     "bankName": "銀行名",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "ユナイテッド・ユニオン・トラスト銀行",
     "accountName": "口座名義",
     "accountNumber": "口座番号",
     "validAmount": "有効な金額を入力してください",
@@ -445,8 +445,3 @@
     "confirmWithdrawal": "出金を確認"
   }
 }
-
-
-
-
-

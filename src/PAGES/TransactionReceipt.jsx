@@ -97,7 +97,7 @@ const TransactionReceipt = ({ transaction, onClose }) => {
                     ? (isWire ? 'Wire Transfer Successful' : 'Domestic Transfer Successful')
                     : 'Transfer Failed'}
               </h2>
-              <p className="text-white/80 text-sm mt-1">Novexus Finance Bank</p>
+              <p className="text-white/80 text-sm mt-1">United Union Trust Bank</p>
             </div>
 
             {/* Status Icon */}
@@ -173,7 +173,7 @@ const TransactionReceipt = ({ transaction, onClose }) => {
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">{t('success.fromBank') || 'From Bank'}</span>
                 <span className="font-semibold text-gray-800 text-sm">
-                  Novexus Finance Bank
+                  United Union Trust Bank
                 </span>
               </div>
               
@@ -273,7 +273,7 @@ const TransactionReceipt = ({ transaction, onClose }) => {
 
             {/* Footer */}
             <div className="px-6 py-4 text-center">
-              <p className="text-xs text-gray-400">Novexus Finance Bank</p>
+              <p className="text-xs text-gray-400">United Union Trust Bank</p>
               <p className="text-xs text-gray-400">{t('footer.tagline') || 'Banking made simple, secure, and accessible for everyone'}</p>
             </div>
           </div>

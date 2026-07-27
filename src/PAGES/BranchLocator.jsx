@@ -25,7 +25,7 @@ const BranchLocator = () => {
   const branches = [
     {
       id: 1,
-      name: "Novexus Finance Bank - Headquarters",
+      name: "United Union Trust Bank - Headquarters",
       address: "123 Wall Street, New York, NY 10005, USA",
       phone: "+1 (800) 555-0199",
       hours: "Mon-Fri: 8:00 AM - 6:00 PM EST",
@@ -36,7 +36,7 @@ const BranchLocator = () => {
     },
     {
       id: 2,
-      name: "Novexus Finance Bank - Manhattan",
+      name: "United Union Trust Bank - Manhattan",
       address: "456 5th Avenue, New York, NY 10018, USA",
       phone: "+1 (800) 555-0234",
       hours: "Mon-Fri: 8:00 AM - 7:00 PM EST",
@@ -47,7 +47,7 @@ const BranchLocator = () => {
     },
     {
       id: 3,
-      name: "Novexus Finance Bank - Brooklyn",
+      name: "United Union Trust Bank - Brooklyn",
       address: "789 Atlantic Avenue, Brooklyn, NY 11217, USA",
       phone: "+1 (800) 555-0456",
       hours: "Mon-Fri: 8:00 AM - 6:00 PM EST",
@@ -58,7 +58,7 @@ const BranchLocator = () => {
     },
     {
       id: 4,
-      name: "Novexus Finance Bank - Queens",
+      name: "United Union Trust Bank - Queens",
       address: "321 Queens Boulevard, Queens, NY 11375, USA",
       phone: "+1 (800) 555-0678",
       hours: "Mon-Fri: 8:00 AM - 5:30 PM EST",
@@ -69,7 +69,7 @@ const BranchLocator = () => {
     },
     {
       id: 5,
-      name: "Novexus Finance Bank - Bronx",
+      name: "United Union Trust Bank - Bronx",
       address: "654 Grand Concourse, Bronx, NY 10451, USA",
       phone: "+1 (800) 555-0890",
       hours: "Mon-Fri: 8:00 AM - 5:00 PM EST",
@@ -80,7 +80,7 @@ const BranchLocator = () => {
     },
     {
       id: 6,
-      name: "Novexus Finance Bank - Staten Island",
+      name: "United Union Trust Bank - Staten Island",
       address: "987 Bay Street, Staten Island, NY 10301, USA",
       phone: "+1 (800) 555-0123",
       hours: "Mon-Fri: 8:00 AM - 5:30 PM EST",

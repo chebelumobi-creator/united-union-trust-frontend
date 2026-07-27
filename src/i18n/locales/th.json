@@ -20,9 +20,9 @@
     "transfer": "โอน"
   },
   "hero": {
-    "welcome": "ยินดีต้อนรับสู่ธนาคาร Novexus Finance",
+    "welcome": "ยินดีต้อนรับสู่ United Union Trust Bank",
     "title1": "เงินของคุณ ปลอดภัยและเติบโต",
-    "subtitle1": "ธนาคารอัจฉริยะกับ Novexus Finance Bank — ทุกธุรกรรมได้รับการปกป้อง",
+    "subtitle1": "ธนาคารอัจฉริยะกับ United Union Trust Bank — ทุกธุรกรรมได้รับการปกป้อง",
     "title2": "โอนเงินทันทีทั่วโลก",
     "subtitle2": "ส่งเงินไปที่ไหนก็ได้ในไม่กี่วินาที โดยไม่มีค่าธรรมเนียมแอบแฝง",
     "title3": "ประสบการณ์ธนาคารระดับพรีเมียม",
@@ -113,7 +113,7 @@
     "terms": "ข้อกำหนดการให้บริการ",
     "securityLink": "ความปลอดภัย",
     "followUs": "ติดตามเรา",
-    "copyright": "© 2026 Novexus Finance Bank สงวนลิขสิทธิ์",
+    "copyright": "© 2026 United Union Trust Bank สงวนลิขสิทธิ์",
     "branchLocator": "ค้นหาสาขา",
     "mobileBanking": "ธนาคารบนมือถือ",
     "loanCalculator": "เครื่องคำนวณสินเชื่อ",
@@ -241,7 +241,7 @@
     "downloadFailed": "การดาวน์โหลดล้มเหลว กรุณาใช้ปุ่มพิมพ์"
   },
   "pin": {
-    "title": "เข้าสู่ระบบ Novexus Finance Bank",
+    "title": "เข้าสู่ระบบ United Union Trust Bank",
     "subtitle": "เข้าถึงบัญชีของคุณโดยใช้อีเมลและรหัสผ่าน",
     "welcomeBack": "ยินดีต้อนรับกลับ",
     "email": "อีเมล",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 แพ็คเกจซูเปอร์วoucher!",
-    "shareBank": "แชร์ Novexus Finance Bank กับเพื่อนและรับโบนัส $5",
+    "shareBank": "แชร์ United Union Trust Bank กับเพื่อนและรับโบนัส $5",
     "inviteFriends": "เชิญเพื่อนและรับ $1.5 ต่อคน!",
     "referEarn": "💰 แนะนำและรับรางวัล",
     "cashback": "รับเงินคืน 10% สำหรับทุกการแนะนำที่สำเร็จ",
@@ -337,7 +337,7 @@
     "accountNumber": "หมายเลขบัญชี",
     "notProvided": "ไม่ได้ระบุ",
     "bank": "ธนาคาร",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "เบอร์โทรศัพท์",
     "address": "ที่อยู่",
     "dailyLimit": "วงเงินโอนรายวัน",
@@ -361,7 +361,7 @@
     "depositNow": "ฝากเงินเลย",
     "bankTransfer": "โอนผ่านธนาคาร",
     "bankName": "ชื่อธนาคาร",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "ชื่อบัญชี",
     "accountNumber": "หมายเลขบัญชี",
     "validAmount": "กรุณาใส่จำนวนเงินที่ถูกต้อง",

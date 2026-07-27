@@ -56,7 +56,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["novexusfinancenfb@gmail.com"],
+      details: ["uniteduniontrustbank@gmail.com"],
       color: "bg-blue-100 text-blue-600"
     },
     {

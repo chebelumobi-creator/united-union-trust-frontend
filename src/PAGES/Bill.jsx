@@ -257,7 +257,7 @@ function Bill() {
             {/* Logo */}
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-xl font-bold text-green-600">
-                Novexus Finance Bank
+                United Union Trust Bank
               </h2>
             </div>
 

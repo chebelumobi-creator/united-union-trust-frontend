@@ -1,7 +1,5 @@
-
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import {Routes, Route} from "react-router-dom"
-import TawkMessengerReact from '@tawk.to/tawk-messenger-react'
 import Home from './PAGES/Home'
 import PinScreen from './PAGES/PinScreen'
 import Bill from './PAGES/Bill'
@@ -26,17 +24,6 @@ import FAQ from './PAGES/FAQ'
 import Contact from './PAGES/Contact';
 
 const App = () => {
-  const [showTawk, setShowTawk] = useState(false)
-
-  useEffect(() => {
-    // Load tawk.to after 3 seconds to avoid interfering with API calls
-    const timer = setTimeout(() => {
-      setShowTawk(true)
-    }, 3000)
-
-    return () => clearTimeout(timer)
-  }, [])
-
   return (
     <BalanceProvider>
       <div>
@@ -62,16 +49,7 @@ const App = () => {
           <Route path='/refer' element={<ReferEarn/>}/>
           <Route path='/faq' element={<FAQ/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          
         </Routes>
-
-        {/* Tawk.to loads after 3 seconds delay */}
-        {showTawk && (
-          <TawkMessengerReact
-            propertyId="6a303fd5e527571d4c0ee7db"
-            widgetId="1jr67imtu"
-          />
-        )}
       </div>
     </BalanceProvider>
   )

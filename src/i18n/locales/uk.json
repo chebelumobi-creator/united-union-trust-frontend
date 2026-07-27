@@ -20,9 +20,9 @@
     "transfer": "Переказ"
   },
   "hero": {
-    "welcome": "Ласкаво просимо до Novexus Finance Bank",
+    "welcome": "Ласкаво просимо до United Union Trust Bank",
     "title1": "Ваші гроші в безпеці та зростають",
-    "subtitle1": "Розумніше банківництво з Novexus Finance Bank — де кожна транзакція захищена.",
+    "subtitle1": "Розумніше банківництво з United Union Trust Bank — де кожна транзакція захищена.",
     "title2": "Миттєві перекази по всьому світу",
     "subtitle2": "Надішліть гроші куди завгодно за секунди без прихованих комісій.",
     "title3": "Преміальний банківський досвід",
@@ -113,7 +113,7 @@
     "terms": "Умови використання",
     "securityLink": "Безпека",
     "followUs": "Слідкуйте за нами",
-    "copyright": "© 2026 Novexus Finance Bank. Усі права захищено.",
+    "copyright": "© 2026 United Union Trust Bank. Усі права захищено.",
     "branchLocator": "Пошук відділень",
     "mobileBanking": "Мобільний банкінг",
     "loanCalculator": "Калькулятор кредиту",
@@ -241,10 +241,10 @@
     "downloadFailed": "Завантаження не вдалося. Будь ласка, скористайтеся кнопкою «Друк»."
   },
   "pin": {
-    "title": "Вхід до Novexus Finance Bank",
+    "title": "Вхід до United Union Trust Bank",
     "subtitle": "Отримайте доступ до свого рахунку, використовуючи email та пароль.",
     "welcomeBack": "З поверненням",
-    "email": "електронна пошта",
+    "email": "Email",
     "emailPlaceholder": "Введіть ваш Email",
     "password": "Пароль",
     "passwordPlaceholder": "Введіть ваш пароль",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Супер ваучерний пакет!",
-    "shareBank": "Поділіться Novexus Finance Bank з друзями та отримайте бонус $5",
+    "shareBank": "Поділіться United Union Trust Bank з друзями та отримайте бонус $5",
     "inviteFriends": "Запрошуйте друзів і отримуйте по $1.5 за кожного!",
     "referEarn": "💰 Рекомендуйте та заробляйте винагороди",
     "cashback": "Отримайте 10% кешбеку за кожну успішну рекомендацію",
@@ -315,7 +315,7 @@
     "exclusiveOffer": "Ексклюзивна пропозиція: Рекомендуйте друга та отримайте грошову винагороду $50. Без ліміту!",
     "premiumBanking": "Преміальний банкінг: Насолоджуйтесь нульовими щомісячними комісіями та 4% річних на заощадженнях.",
     "instantTransfers": "Миттєві перекази: Надсилайте гроші по всьому світу за секунди з конкурентними ставками.",
-    "bankWithconfidence": "Банкінг з упевненістю: 256-бітне шифрування та цілодобовий моніторинг шахрайства.",
+    "bankWithConfidence": "Банкінг з упевненістю: 256-бітне шифрування та цілодобовий моніторинг шахрайства.",
     "mobileBanking": "Мобільний банкінг: Керуйте своїми фінансами будь-де за допомогою нашого безпечного додатку."
   },
   "balance": {
@@ -337,7 +337,7 @@
     "accountNumber": "Номер рахунку",
     "notProvided": "Не вказано",
     "bank": "Банк",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Телефон",
     "address": "Адреса",
     "dailyLimit": "Денний ліміт переказів",
@@ -361,7 +361,7 @@
     "depositNow": "Поповнити зараз",
     "bankTransfer": "Банківський переказ",
     "bankName": "Назва банку",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Ім'я власника рахунку",
     "accountNumber": "Номер рахунку",
     "validAmount": "Будь ласка, введіть коректну суму",

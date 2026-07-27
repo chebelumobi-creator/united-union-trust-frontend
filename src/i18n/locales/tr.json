@@ -20,9 +20,9 @@
     "transfer": "Transfer"
   },
   "hero": {
-    "welcome": "Novexus Finance Bank'a Hoş Geldiniz",
+    "welcome": "United Union Trust Bank'a Hoş Geldiniz",
     "title1": "Param Güvende ve Büyüyor",
-    "subtitle1": "Novexus Finance Bank ile akıllı bankacılık — her işlem korunmaktadır.",
+    "subtitle1": "United Union Trust Bank ile akıllı bankacılık — her işlem korunmaktadır.",
     "title2": "Dünya Çapında Anlık Transferler",
     "subtitle2": "Gizli ücret olmadan saniyeler içinde her yere para gönderin.",
     "title3": "Premium Bankacılık Deneyimi",
@@ -113,7 +113,7 @@
     "terms": "Hizmet Şartları",
     "securityLink": "Güvenlik",
     "followUs": "Bizi Takip Edin",
-    "copyright": "© 2026 Novexus Finance Bank. Tüm hakları saklıdır.",
+    "copyright": "© 2026 United Union Trust Bank. Tüm hakları saklıdır.",
     "branchLocator": "Şube Bulucu",
     "mobileBanking": "Mobil Bankacılık",
     "loanCalculator": "Kredi Hesaplayıcı",
@@ -241,7 +241,7 @@
     "downloadFailed": "İndirme başarısız oldu. Lütfen Yazdır butonunu kullanın."
   },
   "pin": {
-    "title": "Novexus Finance Bank'a Giriş Yapın",
+    "title": "United Union Trust Bank'a Giriş Yapın",
     "subtitle": "E-posta ve şifrenizi kullanarak hesabınıza erişin.",
     "welcomeBack": "Tekrar Hoş Geldiniz",
     "email": "E-posta",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Süper Voucher Paketi!",
-    "shareBank": "Novexus Finance Bank'ı arkadaşlarınızla paylaşın ve $5 bonus kazanın",
+    "shareBank": "United Union Trust Bank'ı arkadaşlarınızla paylaşın ve $5 bonus kazanın",
     "inviteFriends": "Arkadaşlarınızı davet edin ve her biri için $1,5 kazanın!",
     "referEarn": "💰 Tavsiye Et ve Ödül Kazan",
     "cashback": "Her başarılı tavsiye için %10 iade kazanın",
@@ -337,7 +337,7 @@
     "accountNumber": "Hesap Numarası",
     "notProvided": "Belirtilmemiş",
     "bank": "Banka",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Telefon",
     "address": "Adres",
     "dailyLimit": "Günlük Transfer Limiti",
@@ -361,7 +361,7 @@
     "depositNow": "Şimdi Yatır",
     "bankTransfer": "Banka Transferi",
     "bankName": "Banka Adı",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Hesap Adı",
     "accountNumber": "Hesap Numarası",
     "validAmount": "Lütfen geçerli bir tutar girin",

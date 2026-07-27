@@ -20,9 +20,9 @@
     "transfer": "Transfer"
   },
   "hero": {
-    "welcome": "Maligayang Pagdating sa Novexus Finance Bank",
+    "welcome": "Maligayang Pagdating sa United Union Trust Bank",
     "title1": "Ang Iyong Pera, Ligtas at Lumalago",
-    "subtitle1": "Matalinong pagbabangko sa Novexus Finance Bank — bawat transaksyon ay protektado.",
+    "subtitle1": "Matalinong pagbabangko sa United Union Trust Bank — bawat transaksyon ay protektado.",
     "title2": "Instant na Transfer sa Buong Mundo",
     "subtitle2": "Magpadala ng pera kahit saan sa loob ng ilang segundo nang walang nakatagong bayad.",
     "title3": "Premium na Banking Experience",
@@ -37,7 +37,7 @@
     "encryption": "Encryption"
   },
   "features": {
-    "title": "Banking na Ginawa Para sa Iyo",
+    "title": "Banking na Ginawa Para Sa Iyo",
     "subtitle": "Bakit Kami Piliin",
     "noFees": "Walang Nakatagong Bayad",
     "noFeesDesc": "Walang buwanang bayad, laging transparent ang presyo.",
@@ -113,7 +113,7 @@
     "terms": "Mga Tuntunin ng Serbisyo",
     "securityLink": "Seguridad",
     "followUs": "Sundan Kami",
-    "copyright": "© 2026 Novexus Finance Bank. Lahat ng karapatan ay nakalaan.",
+    "copyright": "© 2026 United Union Trust Bank. Lahat ng karapatan ay nakalaan.",
     "branchLocator": "Maghanap ng Sangay",
     "mobileBanking": "Mobile Banking",
     "loanCalculator": "Loan Calculator",
@@ -241,10 +241,10 @@
     "downloadFailed": "Nabigo ang pag-download. Mangyaring gamitin ang Print button."
   },
   "pin": {
-    "title": "Mag-sign In sa Novexus Finance Bank",
+    "title": "Mag-sign In sa United Union Trust Bank",
     "subtitle": "I-access ang iyong account gamit ang iyong email at password.",
     "welcomeBack": "Maligayang pagbabalik",
-    "email": "elektronikong koreo",
+    "email": "Email",
     "emailPlaceholder": "Ilagay ang Iyong Email",
     "password": "Password",
     "passwordPlaceholder": "Ilagay ang Iyong Password",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Super Voucher Package!",
-    "shareBank": "I-share ang Novexus Finance Bank sa mga kaibigan at kumita ng $5 na bonus",
+    "shareBank": "I-share ang United Union Trust Bank sa mga kaibigan at kumita ng $5 na bonus",
     "inviteFriends": "Anyayahan ang mga kaibigan at makakuha ng $1.5 bawat isa!",
     "referEarn": "💰 Mag-refer at Kumita ng Reward",
     "cashback": "Makakuha ng 10% cashback sa bawat matagumpay na referral",
@@ -337,7 +337,7 @@
     "accountNumber": "Numero ng Account",
     "notProvided": "Hindi ibinigay",
     "bank": "Bangko",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Telepono",
     "address": "Address",
     "dailyLimit": "Araw-araw na Limitasyon sa Transfer",
@@ -361,7 +361,7 @@
     "depositNow": "Magdeposito Na",
     "bankTransfer": "Bank Transfer",
     "bankName": "Pangalan ng Bangko",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Pangalan ng Account",
     "accountNumber": "Numero ng Account",
     "validAmount": "Mangyaring maglagay ng wastong halaga",

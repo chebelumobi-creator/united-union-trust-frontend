@@ -20,9 +20,9 @@
     "transfer": "Перевод"
   },
   "hero": {
-    "welcome": "Добро пожаловать в банк Novexus Finance",
+    "welcome": "Добро пожаловать в United Union Trust Bank",
     "title1": "Ваши деньги в безопасности и растут",
-    "subtitle1": "Умный банкинг с Novexus Finance Bank — каждая транзакция защищена.",
+    "subtitle1": "Умный банкинг с United Union Trust Bank — каждая транзакция защищена.",
     "title2": "Мгновенные переводы по всему миру",
     "subtitle2": "Отправляйте деньги куда угодно за секунды без скрытых комиссий.",
     "title3": "Премиальный банковский опыт",
@@ -113,7 +113,7 @@
     "terms": "Условия обслуживания",
     "securityLink": "Безопасность",
     "followUs": "Подпишитесь на нас",
-    "copyright": "© 2026 Novexus Finance Bank. Все права защищены.",
+    "copyright": "© 2026 United Union Trust Bank. Все права защищены.",
     "branchLocator": "Поиск отделения",
     "mobileBanking": "Мобильный банкинг",
     "loanCalculator": "Кредитный калькулятор",
@@ -241,7 +241,7 @@
     "downloadFailed": "Не удалось загрузить. Пожалуйста, используйте кнопку «Печать»."
   },
   "pin": {
-    "title": "Войти в Novexus Finance Bank",
+    "title": "Войти в United Union Trust Bank",
     "subtitle": "Получите доступ к своему аккаунту, используя адрес электронной почты и пароль.",
     "welcomeBack": "С возвращением",
     "email": "Электронная почта",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Супер-пакет ваучеров!",
-    "shareBank": "Поделитесь Novexus Finance Bank с друзьями и получите бонус $5",
+    "shareBank": "Поделитесь United Union Trust Bank с друзьями и получите бонус $5",
     "inviteFriends": "Пригласите друзей и получите $1,5 каждый!",
     "referEarn": "💰 Рекомендуйте и получайте вознаграждения",
     "cashback": "Получите 10% кэшбэка за каждую успешную рекомендацию",
@@ -337,7 +337,7 @@
     "accountNumber": "Номер счёта",
     "notProvided": "Не указано",
     "bank": "Банк",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Телефон",
     "address": "Адрес",
     "dailyLimit": "Дневной лимит перевода",
@@ -361,7 +361,7 @@
     "depositNow": "Пополнить сейчас",
     "bankTransfer": "Банковский перевод",
     "bankName": "Название банка",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Название счёта",
     "accountNumber": "Номер счёта",
     "validAmount": "Пожалуйста, введите действительную сумму",

@@ -20,9 +20,9 @@
     "transfer": "Chuyển khoản"
   },
   "hero": {
-    "welcome": "Chào mừng đến với Ngân hàng Novexus Finance",
+    "welcome": "Chào mừng đến với Ngân hàng United Union Trust",
     "title1": "Tiền của bạn, An toàn & Phát triển",
-    "subtitle1": "Ngân hàng thông minh với Novexus Finance Bank — mọi giao dịch đều được bảo vệ.",
+    "subtitle1": "Ngân hàng thông minh với United Union Trust Bank — mọi giao dịch đều được bảo vệ.",
     "title2": "Chuyển tiền tức thì toàn cầu",
     "subtitle2": "Gửi tiền đi bất cứ đâu trong vài giây mà không có phí ẩn.",
     "title3": "Trải nghiệm Ngân hàng Cao cấp",
@@ -113,7 +113,7 @@
     "terms": "Điều khoản dịch vụ",
     "securityLink": "Bảo mật",
     "followUs": "Theo dõi chúng tôi",
-    "copyright": "© 2026 Novexus Finance Bank. Đã đăng ký bản quyền.",
+    "copyright": "© 2026 United Union Trust Bank. Đã đăng ký bản quyền.",
     "branchLocator": "Tìm chi nhánh",
     "mobileBanking": "Ngân hàng di động",
     "loanCalculator": "Máy tính vay",
@@ -241,7 +241,7 @@
     "downloadFailed": "Tải xuống thất bại. Vui lòng sử dụng nút In."
   },
   "pin": {
-    "title": "Đăng nhập vào Novexus Finance Bank",
+    "title": "Đăng nhập vào United Union Trust Bank",
     "subtitle": "Truy cập tài khoản của bạn bằng email và mật khẩu.",
     "welcomeBack": "Chào mừng trở lại",
     "email": "thư điện tử",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Gói Siêu Voucher!",
-    "shareBank": "Chia sẻ Novexus Finance Bank với bạn bè và nhận thưởng $5",
+    "shareBank": "Chia sẻ United Union Trust Bank với bạn bè và nhận thưởng $5",
     "inviteFriends": "Mời bạn bè và nhận $1.5 mỗi người!",
     "referEarn": "💰 Giới thiệu và Nhận thưởng",
     "cashback": "Nhận lại 10% tiền mặt cho mỗi lần giới thiệu thành công",
@@ -337,7 +337,7 @@
     "accountNumber": "Số tài khoản",
     "notProvided": "Chưa cung cấp",
     "bank": "Ngân hàng",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Số điện thoại",
     "address": "Địa chỉ",
     "dailyLimit": "Hạn mức chuyển hàng ngày",
@@ -361,7 +361,7 @@
     "depositNow": "Nạp tiền ngay",
     "bankTransfer": "Chuyển khoản ngân hàng",
     "bankName": "Tên ngân hàng",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Tên tài khoản",
     "accountNumber": "Số tài khoản",
     "validAmount": "Vui lòng nhập số tiền hợp lệ",

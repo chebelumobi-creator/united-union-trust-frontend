@@ -20,9 +20,9 @@
     "transfer": "Transfert"
   },
   "hero": {
-    "welcome": "Bienvenue à la Banque Novexus Finance",
+    "welcome": "Bienvenue à la United Union Trust Bank",
     "title1": "Votre argent, sécurisé et en croissance",
-    "subtitle1": "Banquez plus intelligemment avec Novexus Finance Bank — chaque transaction est protégée.",
+    "subtitle1": "Banquez plus intelligemment avec United Union Trust Bank — chaque transaction est protégée.",
     "title2": "Transferts instantanés dans le monde entier",
     "subtitle2": "Envoyez de l'argent n'importe où en quelques secondes sans frais cachés.",
     "title3": "Expérience bancaire premium",
@@ -113,7 +113,7 @@
     "terms": "Conditions d'utilisation",
     "securityLink": "Sécurité",
     "followUs": "Suivez-nous",
-    "copyright": "© 2026 Novexus Finance Bank. Tous droits réservés.",
+    "copyright": "© 2026 United Union Trust Bank. Tous droits réservés.",
     "branchLocator": "Trouver une agence",
     "mobileBanking": "Banque mobile",
     "loanCalculator": "Calculateur de prêt",
@@ -241,7 +241,7 @@
     "downloadFailed": "Le téléchargement a échoué. Veuillez utiliser le bouton Imprimer."
   },
   "pin": {
-    "title": "Connexion à Novexus Finance Bank",
+    "title": "Connexion à United Union Trust Bank",
     "subtitle": "Accédez à votre compte en utilisant votre email et votre mot de passe.",
     "welcomeBack": "Bon retour",
     "email": "Email",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 Pack Super Voucher !",
-    "shareBank": "Partagez Novexus Finance Bank avec vos amis et gagnez 5 $ de bonus",
+    "shareBank": "Partagez United Union Trust Bank avec vos amis et gagnez 5 $ de bonus",
     "inviteFriends": "Invitez des amis et recevez 1,5 $ chacun !",
     "referEarn": "💰 Parrainez et gagnez des récompenses",
     "cashback": "Obtenez 10 % de cashback pour chaque parrainage réussi",
@@ -337,7 +337,7 @@
     "accountNumber": "Numéro de compte",
     "notProvided": "Non fourni",
     "bank": "Banque",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "Téléphone",
     "address": "Adresse",
     "dailyLimit": "Limite de transfert quotidienne",
@@ -361,7 +361,7 @@
     "depositNow": "Déposer maintenant",
     "bankTransfer": "Virement bancaire",
     "bankName": "Nom de la banque",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "Nom du compte",
     "accountNumber": "Numéro de compte",
     "validAmount": "Veuillez saisir un montant valide",

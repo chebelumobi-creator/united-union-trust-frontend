@@ -20,9 +20,9 @@
     "transfer": "ໂອນເງິນ"
   },
   "hero": {
-    "welcome": "ຍິນດີຕ້ອນຮັບສູ່ Novexus Finance Bank",
+    "welcome": "ຍິນດີຕ້ອນຮັບສູ່ United Union Trust Bank",
     "title1": "ເງິນຂອງທ່ານ, ປອດໄພ ແລະ ເຕີບໂຕ",
-    "subtitle1": "ທະນາຄານອັດສະລິຍະກັບ Novexus Finance Bank — ບ່ອນທີ່ທຸກໆທຸລະກຳໄດ້ຮັບການປົກປ້ອງ.",
+    "subtitle1": "ທະນາຄານອັດສະລິຍະກັບ United Union Trust Bank — ບ່ອນທີ່ທຸກໆທຸລະກຳໄດ້ຮັບການປົກປ້ອງ.",
     "title2": "ໂອນເງິນທົ່ວໂລກທັນທີ",
     "subtitle2": "ສົ່ງເງິນໄປທຸກບ່ອນໃນໂລກພາຍໃນວິນາທີ ໂດຍບໍ່ມີຄ່າທຳນຽມແຝງ.",
     "title3": "ປະສົບການທະນາຄານລະດັບພຣີເມຍ",
@@ -113,7 +113,7 @@
     "terms": "ເງື່ອນໄຂການໃຫ້ບໍລິການ",
     "securityLink": "ຄວາມປອດໄພ",
     "followUs": "ຕິດຕາມເຮົາ",
-    "copyright": "© 2026 Novexus Finance Bank. ສະຫງວນລິຂະສິດທຸກປະເພດ.",
+    "copyright": "© 2026 United Union Trust Bank. ສະຫງວນລິຂະສິດທຸກປະເພດ.",
     "branchLocator": "ຊອກຫາສາຂາ",
     "mobileBanking": "ທະນາຄານບົນມືຖື",
     "loanCalculator": "ເຄື່ອງຄິດເລກເງິນກູ້",
@@ -203,7 +203,7 @@
     "bankName": "ຊື່ທະນາຄານ",
     "amountUsd": "ຈຳນວນເງິນ (USD)"
   },
-    "success": {
+  "success": {
     "noData": "ບໍ່ພົບຂໍ້ມູນການໂອນ",
     "wireSuccess": "ການໂອນຜ່ານທະນາຄານສຳເລັດ",
     "domesticSuccess": "ການໂອນພາຍໃນສຳເລັດ",
@@ -241,7 +241,7 @@
     "downloadFailed": "ການດາວໂຫຼດລົ້ມເຫຼວ. ກະລຸນາໃຊ້ປຸ່ມພິມ."
   },
   "pin": {
-    "title": "ເຂົ້າສູ່ລະບົບ Novexus Finance Bank",
+    "title": "ເຂົ້າສູ່ລະບົບ United Union Trust Bank",
     "subtitle": "ເຂົ້າເຖິງບັນຊີຂອງທ່ານໂດຍໃຊ້ອີເມວ ແລະ ລະຫັດຜ່ານ.",
     "welcomeBack": "ຍິນດີຕ້ອນຮັບກັບຄືນ",
     "email": "ອີເມວ",
@@ -288,7 +288,7 @@
   },
   "voucher": {
     "superPackage": "🎉 ຊຸດວເຊີນພິເສດ!",
-    "shareBank": "ແບ່ງປັນ Novexus Finance Bank ກັບໝູ່ ແລະ ຮັບໂບນັດ $5",
+    "shareBank": "ແບ່ງປັນ United Union Trust Bank ກັບໝູ່ ແລະ ຮັບໂບນັດ $5",
     "inviteFriends": "ເຊີນໝູ່ ແລະ ຮັບ $1.5 ຕໍ່ຄົນ!",
     "referEarn": "💰 ແນະນຳ ແລະ ຮັບລາງວັນ",
     "cashback": "ຮັບເງິນຄືນ 10% ທຸກໆການແນະນຳທີ່ສຳເລັດ",
@@ -337,7 +337,7 @@
     "accountNumber": "ເລກທີ່ບັນຊີ",
     "notProvided": "ບໍ່ໄດ້ລະບຸ",
     "bank": "ທະນາຄານ",
-    "bankName": "Novexus Finance Bank",
+    "bankName": "United Union Trust Bank",
     "phone": "ເບີໂທລະສັບ",
     "address": "ທີ່ຢູ່",
     "dailyLimit": "ວົງເງິນຈຳກັດການໂອນຕໍ່ວັນ",
@@ -361,7 +361,7 @@
     "depositNow": "ຝາກດຽວນີ້",
     "bankTransfer": "ໂອນຜ່ານທະນາຄານ",
     "bankName": "ຊື່ທະນາຄານ",
-    "bankNameValue": "Novexus Finance Bank",
+    "bankNameValue": "United Union Trust Bank",
     "accountName": "ຊື່ບັນຊີ",
     "accountNumber": "ເລກທີ່ບັນຊີ",
     "validAmount": "ກະລຸນາໃສ່ຈຳນວນເງິນທີ່ຖືກຕ້ອງ",
