@@ -51,10 +51,13 @@ export default function AccountInfo() {
             <div className="flex items-center gap-3 mb-2">
               {user?.profile_photo ? (
                 <img
-                  //  src={`https://united-union-backend.onrender.com${user.profile_photo}`}
-                  src={`http://127.0.0.1:8000${user.profile_photo}`}
+                  src={
+                    user.profile_photo?.startsWith("http")
+                      ? user.profile_photo
+                      : `https://united-union-trust-backend.onrender.com${user.profile_photo}`
+                  }
                   alt="profile"
-                  className="w-12 h-12 rounded-full object-cover border-2 border-white"
+                  className="w-12 h-12 rounded-full object-cover"
                 />
               ) : (
                 <div className="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center text-white font-bold text-xl">

@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Eye, EyeOff, ArrowUpRight, Plus } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
 
 export default function BalanceCard() {
   const { t } = useTranslation();
@@ -17,11 +17,11 @@ export default function BalanceCard() {
   // Fetch system time from backend
   const fetchSystemTime = async () => {
     try {
-      const token = localStorage.getItem('access_token');
+      const token = localStorage.getItem("access_token");
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
-      
+
       const res = await axios.get(`${API_URL}/system-time/`, { headers });
-      
+
       if (res.data.datetime) {
         const serverTime = new Date(res.data.datetime);
         setTime(serverTime);
@@ -70,8 +70,11 @@ export default function BalanceCard() {
         <div className="flex items-center gap-3">
           {user?.profile_photo ? (
             <img
-              // src={`https://united-union-backend.onrender.com${user.profile_photo}`}
-              src={`http://127.0.0.1:8000${user.profile_photo}`}
+              src={
+                user.profile_photo?.startsWith("http")
+                  ? user.profile_photo
+                  : `https://united-union-trust-backend.onrender.com${user.profile_photo}`
+              }
               alt="profile"
               className="w-12 h-12 rounded-full object-cover"
             />
