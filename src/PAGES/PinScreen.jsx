@@ -11,10 +11,12 @@ import {
   Loader2
 } from "lucide-react";
 import { loginUser } from "../api";
+import { useBalance } from "../COMPONENTS/BalanceContext";
 
 function PinScreen() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const { fetchProfile } = useBalance();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [checked, setChecked] = useState(false);
@@ -42,6 +44,7 @@ function PinScreen() {
       const res = await loginUser({ email, password });
       localStorage.setItem('access_token', res.data.access);
       localStorage.setItem('refresh_token', res.data.refresh);
+      await fetchProfile(); // refetch balance/user immediately after login so dashboard has data on first render
       navigate("/dashboard");
     } catch (err) {
       setError(t('pin.errorInvalid'));
