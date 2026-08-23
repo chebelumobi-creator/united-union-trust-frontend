@@ -689,7 +689,7 @@ function Home() {
 
         {/* ===== FLOATING WHATSAPP BUTTON ===== */}
         <a
-          href="https://wa.me/15403176252?text=Hello%20United%20Union%20Trust%20Bank%2C%20I%20need%20assistance"
+          href="https://wa.me/2348039627481?text=Hello%20United%20Union%20Trust%20Bank%2C%20I%20need%20assistance"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-24 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-110 group"
