@@ -16,7 +16,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://your-render-backend-url.com',
+        target: 'https://united-union-trust-backend.onrender.com',
         changeOrigin: true,
         secure: true
       }
