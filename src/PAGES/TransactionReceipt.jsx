@@ -38,6 +38,7 @@ const TransactionReceipt = ({ transaction, onClose }) => {
   if (!transaction) return null;
 
   const isWire = transaction.transfer_type === 'wire';
+  const isDeposit = transaction.transaction_type === 'deposit';
   const isPending = transaction.status === 'pending';
   const isCompleted = transaction.status === 'completed';
 
@@ -51,13 +52,36 @@ const TransactionReceipt = ({ transaction, onClose }) => {
   };
 
   const handleDownloadImage = async () => {
-    // Simplified - you can expand this later
     alert("Download feature coming soon");
   };
 
   const handleShare = async () => {
-    // Simplified - you can expand this later
     alert("Share feature coming soon");
+  };
+
+  // Get header color based on transaction type
+  const getHeaderColor = () => {
+    if (isDeposit) return 'bg-gradient-to-r from-green-600 to-emerald-700';
+    if (isWire) return 'bg-gradient-to-r from-blue-600 to-blue-800';
+    return 'bg-gradient-to-r from-green-600 to-green-800';
+  };
+
+  // Get header icon
+  const getHeaderIcon = () => {
+    if (isDeposit) return <CheckCircle size={32} />;
+    if (isWire) return <Globe size={32} />;
+    return <Home size={32} />;
+  };
+
+  // Get header title
+  const getHeaderTitle = () => {
+    if (isDeposit) {
+      return isPending ? 'Deposit Pending' : 'Deposit Successful';
+    }
+    if (isWire) {
+      return isPending ? 'Wire Transfer Pending' : 'Wire Transfer Successful';
+    }
+    return isPending ? 'Domestic Transfer Pending' : 'Domestic Transfer Successful';
   };
 
   return (
@@ -84,18 +108,14 @@ const TransactionReceipt = ({ transaction, onClose }) => {
             </button>
 
             {/* Header */}
-            <div className={`p-6 text-white text-center ${isWire ? 'bg-gradient-to-r from-blue-600 to-blue-800' : 'bg-gradient-to-r from-green-600 to-green-800'}`}>
+            <div className={`p-6 text-white text-center ${getHeaderColor()}`}>
               <div className="flex justify-center mb-3">
                 <div className="bg-white/20 p-3 rounded-full">
-                  {isWire ? <Globe size={32} /> : <Home size={32} />}
+                  {getHeaderIcon()}
                 </div>
               </div>
               <h2 className="text-xl font-bold">
-                {isPending 
-                  ? (isWire ? 'Wire Transfer Pending' : 'Domestic Transfer Pending')
-                  : isCompleted 
-                    ? (isWire ? 'Wire Transfer Successful' : 'Domestic Transfer Successful')
-                    : 'Transfer Failed'}
+                {isDeposit ? (isPending ? 'Deposit Pending' : 'Deposit Successful') : getHeaderTitle()}
               </h2>
               <p className="text-white/80 text-sm mt-1">United Union Trust Bank</p>
             </div>
@@ -124,9 +144,11 @@ const TransactionReceipt = ({ transaction, onClose }) => {
 
             {/* Amount */}
             <div className="text-center py-4 px-6">
-              <p className="text-gray-500 text-sm">{t('success.amountTransferred') || 'Amount Transferred'}</p>
+              <p className="text-gray-500 text-sm">
+                {isDeposit ? (t('deposit.amountDeposited') || 'Amount Deposited') : (t('success.amountTransferred') || 'Amount Transferred')}
+              </p>
               <p className="text-4xl font-bold text-gray-800 mt-1">
-                ${parseFloat(transaction.amount).toLocaleString()} USD
+                {isDeposit ? '+' : ''}${parseFloat(transaction.amount).toLocaleString()} USD
               </p>
             </div>
 
@@ -158,45 +180,67 @@ const TransactionReceipt = ({ transaction, onClose }) => {
               
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">{t('success.transferType') || 'Transfer Type'}</span>
-                <span className={`text-sm font-semibold px-2 py-1 rounded-full ${isWire ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'}`}>
-                  {isWire ? (t('success.wireTransfer') || 'Wire Transfer') : (t('success.domesticTransfer') || 'Domestic Transfer')}
+                <span className={`text-sm font-semibold px-2 py-1 rounded-full ${isWire ? 'bg-blue-100 text-blue-700' : isDeposit ? 'bg-green-100 text-green-700' : 'bg-green-100 text-green-700'}`}>
+                  {isDeposit ? (t('deposit.deposit') || 'Deposit') : isWire ? (t('success.wireTransfer') || 'Wire Transfer') : (t('success.domesticTransfer') || 'Domestic Transfer')}
                 </span>
               </div>
               
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500 text-sm">{t('success.senderName') || 'Sender Name'}</span>
-                <span className="font-semibold text-gray-800 text-sm">
-                  {toProperCase(transaction.sender?.username || 'N/A')}
-                </span>
-              </div>
-              
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500 text-sm">{t('success.fromBank') || 'From Bank'}</span>
-                <span className="font-semibold text-gray-800 text-sm">
-                  United Union Trust Bank
-                </span>
-              </div>
-              
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500 text-sm">{t('success.recipientName') || 'Recipient Name'}</span>
-                <span className="font-semibold text-gray-800 text-sm">
-                  {toProperCase(transaction.recipient_name)}
-                </span>
-              </div>
-              
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500 text-sm">{t('success.accountNumber') || 'Account Number'}</span>
-                <span className="font-mono font-semibold text-gray-800 text-sm">
-                  {transaction.recipient_account || 'N/A'}
-                </span>
-              </div>
-              
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500 text-sm">{t('success.bankName') || 'Bank Name'}</span>
-                <span className="font-semibold text-gray-800 text-sm">
-                  {toProperCase(transaction.recipient_bank)}
-                </span>
-              </div>
+              {/* For Deposits: Show Sender Details */}
+              {isDeposit ? (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.senderName') || 'Sender Name'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      {toProperCase(transaction.sender_name || 'N/A')}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.senderBank') || 'Sender Bank'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      {toProperCase(transaction.sender_bank || 'N/A')}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.senderAccount') || 'Sender Account'}</span>
+                    <span className="font-mono font-semibold text-gray-800 text-sm">
+                      {transaction.sender_account || 'N/A'}
+                    </span>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.senderName') || 'Sender Name'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      {toProperCase(transaction.sender?.username || 'N/A')}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.fromBank') || 'From Bank'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      United Union Trust Bank
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.recipientName') || 'Recipient Name'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      {toProperCase(transaction.recipient_name)}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.accountNumber') || 'Account Number'}</span>
+                    <span className="font-mono font-semibold text-gray-800 text-sm">
+                      {transaction.recipient_account || 'N/A'}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">{t('success.bankName') || 'Bank Name'}</span>
+                    <span className="font-semibold text-gray-800 text-sm">
+                      {toProperCase(transaction.recipient_bank)}
+                    </span>
+                  </div>
+                </>
+              )}
               
               {isWire && transaction.equivalent_amount && transaction.target_currency && (
                 <div className="flex justify-between items-center">

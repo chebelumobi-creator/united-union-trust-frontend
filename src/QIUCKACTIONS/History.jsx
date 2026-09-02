@@ -102,18 +102,40 @@ export default function History() {
                      selectedTx.transaction_type}
                   </span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-500 text-sm">{t('history.recipient')}</span>
-                  <span className="text-sm font-semibold text-gray-800">{selectedTx.recipient_name}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-500 text-sm">{t('history.account')}</span>
-                  <span className="font-mono text-sm font-semibold text-gray-800">{selectedTx.recipient_account}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-500 text-sm">{t('history.bank')}</span>
-                  <span className="text-sm font-semibold text-gray-800">{selectedTx.recipient_bank}</span>
-                </div>
+                
+                {/* For deposits, show sender details */}
+                {selectedTx.transaction_type === 'deposit' ? (
+                  <>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.senderName') || 'Sender Name'}</span>
+                      <span className="text-sm font-semibold text-gray-800">{selectedTx.sender_name || 'N/A'}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.senderBank') || 'Sender Bank'}</span>
+                      <span className="text-sm font-semibold text-gray-800">{selectedTx.sender_bank || 'N/A'}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.senderAccount') || 'Sender Account'}</span>
+                      <span className="font-mono text-sm font-semibold text-gray-800">{selectedTx.sender_account || 'N/A'}</span>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.recipient')}</span>
+                      <span className="text-sm font-semibold text-gray-800">{selectedTx.recipient_name}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.account')}</span>
+                      <span className="font-mono text-sm font-semibold text-gray-800">{selectedTx.recipient_account}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-500 text-sm">{t('history.bank')}</span>
+                      <span className="text-sm font-semibold text-gray-800">{selectedTx.recipient_bank}</span>
+                    </div>
+                  </>
+                )}
+                
                 {selectedTx.swift_code && (
                   <div className="flex justify-between">
                     <span className="text-gray-500 text-sm">{t('history.swiftCode')}</span>
@@ -244,7 +266,11 @@ export default function History() {
                       )}
                     </div>
                     <div className="flex-1">
-                      <p className="font-semibold text-gray-800">{transaction.recipient_name}</p>
+                      <p className="font-semibold text-gray-800">
+                        {transaction.transaction_type === 'deposit' 
+                          ? (transaction.sender_name || transaction.recipient_name)
+                          : transaction.recipient_name}
+                      </p>
                       <div className="flex items-center gap-2 mt-1">
                         <Calendar size={12} className="text-gray-400" />
                         <p className="text-xs text-gray-400">
@@ -255,6 +281,11 @@ export default function History() {
                             transaction.transfer_type === 'wire' ? 'bg-blue-100 text-blue-600' : 'bg-green-100 text-green-600'
                           }`}>
                             {transaction.transfer_type === 'wire' ? t('history.wire') : t('history.domestic')}
+                          </span>
+                        )}
+                        {transaction.transaction_type === 'deposit' && (
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-600">
+                            {t('history.incoming') || 'Incoming'}
                           </span>
                         )}
                       </div>
