@@ -8,3 +8,30 @@
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }
+
+@theme {
+  --color-navy: #0a1f44;
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease-out;
+}
