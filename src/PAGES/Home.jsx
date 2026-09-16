@@ -1443,7 +1443,7 @@ function Home() {
             <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
           </div>
         </a> */}
-        <TawkMessengerReact
+        {/* <TawkMessengerReact
           propertyId="6a303fd5e527571d4c0ee7db"
           widgetId="1jr67imtu"
           customStyle={{
@@ -1452,7 +1452,7 @@ function Home() {
               mobile: { xOffset: 12, yOffset: 12, position: 'bl' },
             },
           }}
-        />
+        /> */}
       </div>
     </>
   );
