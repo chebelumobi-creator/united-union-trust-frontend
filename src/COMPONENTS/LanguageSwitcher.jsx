@@ -24,6 +24,7 @@ const languages = [
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
   { code: 'lo', name: 'ລາວ', flag: '🇱🇦' },
   { code: 'ja', name: '日本語', flag: '🇯🇵' },
+  { code: 'uz', name: "O'zbekcha", flag: '🇺🇿' },   // 👈 NEW
 ];
 
 function LanguageSwitcher() {

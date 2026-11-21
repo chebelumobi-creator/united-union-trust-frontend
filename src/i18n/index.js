@@ -24,6 +24,7 @@ import pl from './locales/pl.json';
 import tr from './locales/tr.json';
 import lo from './locales/lo.json';
 import ja from './locales/ja.json';
+import uz from './locales/uz.json';   // 👈 NEW
 
 const resources = {
   en: { translation: en },
@@ -47,6 +48,7 @@ const resources = {
   tr: { translation: tr },
   lo: { translation: lo },
   ja: { translation: ja },
+  uz: { translation: uz },            // 👈 NEW
 };
 
 i18n
